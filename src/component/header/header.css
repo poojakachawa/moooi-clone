@@ -1,0 +1,21 @@
+
+.top_header
+{
+z-index: 99;
+position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px 90px; */
+    padding: 0px 100px;
+    font-size:x-large;
+    font-weight: 400;
+    color: white;
+    height: 85px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}

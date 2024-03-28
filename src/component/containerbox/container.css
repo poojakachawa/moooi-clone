@@ -1,0 +1,29 @@
+.style_container {
+    width: 100%;
+    background-image: url("https:www.moooi.com/_next/image?url=https%3A%2F%2Fcdn.moooi.com%2Ftmp%2Fimage-thumbnails%2FWeb-Items%2FStories%2F75031%2Fimage-thumb__75031__header_fullscreen_2x%2FMoooi_Generations_Header1.png.png&w=1920&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.text_container {
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_container h5 {
+    font-size: 17px;
+}
+
+.text_container h1 {
+
+    font-size: 9vh;
+}

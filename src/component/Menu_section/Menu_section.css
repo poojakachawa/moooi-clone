@@ -1,0 +1,70 @@
+.Menu_desgin {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 15%;
+    z-index: 999;
+}
+
+.search_section,
+.bottom_menu,
+.List_menu {
+    width: 25%;
+}
+
+.search_section {
+    background-color: black;
+    padding: 20px 0px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.search_section input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 60%;
+}
+
+.bottom_menu {
+    padding: 20px 0px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 400;
+
+}
+
+.bottom_menu ul {
+    list-style-type: none;
+}
+
+.List_menu {
+
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.List_menu ul {
+    list-style-type: none;
+}

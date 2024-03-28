@@ -1,0 +1,143 @@
+.form__section {
+    position: relative;
+}
+
+.form1 {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+
+.box_img1 {
+    width: 62%;
+    background-image: url("https:www.moooi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdark-left.fb31dbb9.png&w=640&q=80");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 650px;
+}
+
+.img_box1 {
+    width: 38%;
+    background-image: url("https:www.moooi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdark-right.df310408.png&w=750&q=80");
+    background-repeat: no-repeat;
+    background-size: fill;
+    height: 650px;
+}
+
+.form__container {
+    position: absolute;
+    background-color: black;
+    height: 50%;
+    width: min(800px, 100%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+}
+
+.form__container {
+    color: white;
+}
+
+.style_btn {
+    width: 100%;
+    background-color: #929292;
+    border: none;
+    height: 77px;
+    text-align: start;
+    font-size: 22px;
+    padding-left: 25px;
+    color: whitesmoke;
+    margin-top: 20px;
+    position: relative;
+}
+
+.desing_button {
+    width: 100%;
+    margin-top: 35px;
+    border: none;
+    color: white;
+    font-size: 1.0666666667vw;
+    font-weight: 400;
+    background-color: transparent;
+
+}
+
+.desing_button span {
+    line-height: 1.3;
+    border-bottom: 2px solid white;
+}
+
+.form_btns {
+    position: relative;
+    background-color: black;
+    width: 100%;
+}
+
+#role {
+    list-style: none;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style-position: outside;
+    vertical-align: center;
+    padding: 0;
+    transform: translateY(-20px);
+}
+
+#role>li {
+    flex: 1 1 auto;
+    background-color: aliceblue;
+    border: 1px solid #b1adadef;
+    color: black;
+}
+
+/* 
+ */
+.input__container {
+    width: min(800px, 100%);
+}
+
+.email-label {
+    transform: translateY(18px);
+    transition: all 0.2s ease-in-out;
+}
+
+.email-label-none {
+    transform: translateY(0px);
+    transition: all 0.2s ease-in-out;
+}
+
+#email {
+    background-color: transparent;
+    border: none;
+}
+
+#email:focus-visible,
+:focus {
+    border: none;
+    outline: none;
+}
+
+/* input:focus-visible .email-label {
+    transform: translateY(0px);
+}
+
+input:focus-within .email-label {
+    transform: translateY(0px);
+}
+
+input:focus:active .email-label {
+    transform: translateY(0px);
+} */
+
+#email:focus-visible:focus:active,
+:focus-within .email-label {
+    transform: translateY(0px);
+}

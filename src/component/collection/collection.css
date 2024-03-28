@@ -1,0 +1,33 @@
+.box_collection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    width: 80%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box p {
+    font-size: 20px;
+}
+
+.box:hover {
+    background-color: #f8f6f1;
+}

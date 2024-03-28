@@ -1,0 +1,70 @@
+.hero {
+
+    position: relative;
+    top: -85px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.moooi.com/_next/image?url=https%3A%2F%2Fcdn.moooi.com%2Ftmp%2Fimage-thumbnails%2FCollection%2FKisss%2520Lounge%2520Chair%2FRenders%2F86315%2Fimage-thumb__86315__header_fullscreen_2x%2F01_Kiss_Chair_Auditorium_02.png&w=3840&q=80");
+    background-size: cover;
+}
+
+.contant_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.contant {
+    width: 65%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-con {
+    font-family: var(--type-sangbleu-sans);
+    width: 85%;
+    text-decoration: none;
+    color: white;
+}
+
+.main-con h5 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--type-sangbleu-sans);
+    letter-spacing: 2px;
+}
+
+.main-con h1 {
+    font-size: 72px;
+    font-weight: 400;
+    font-family: var(--type-sangbleu-sans);
+
+}
+
+.link_btn {
+    background-color: white;
+    width: 30%;
+    height: 51px;
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 30px;
+
+}
+
+@media screen and (min-width: 912px) {}
